@@ -1,0 +1,100 @@
+/* Custom Styles for Weather Website */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('../images/partiellement-nuageux.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar {
+    background-color: #00aaff; /* Navbar background color (Cool Blue) */
+}
+
+
+
+.navbar-toggler-icon {
+    background-color: #ffffff; /* Navbar toggle icon color (White) */
+}
+
+.btn-outline-success {
+    border-color: #00aaff; /* Button border color (Cool Blue) */
+    color: #00aaff; /* Button text color (Cool Blue) */
+}
+
+.btn-outline-success:hover {
+    background-color: #00aaff; /* Button hover background color (Cool Blue) */
+    color: #ffffff; /* Button hover text color (White) */
+}
+
+.container {
+    background-color: #f5f5f5; /* Container background color (Light Gray) */
+    border-radius: 8px; /* Container border radius */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Container box shadow */
+}
+
+.card {
+    border: none; /* Remove card border */
+}
+
+.time-section {
+    border-right: 1px solid #ccc; /* Add a border on the right side */
+    padding-right: 15px; /* Add some space to separate content from the border */
+}
+
+.time-section:last-child {
+    border-right: none; /* Remove the border on the last time section */
+}
+.card-body {
+    text-align: center; 
+
+} 
+
+.card-title {
+    color: #00aaff; /* Card title color (Cool Blue) */
+}
+.container a ,.nav-link{
+    color: #00aaff !important; /* Card title color (Cool Blue) */
+
+}
+.card-text {
+    font-size: 18px; /* Card text font size */
+}
+
+.temperature {
+    font-weight: bold; /* Make temperature text bold */
+}
+
+.icon {
+    font-size: 36px; /* Icon font size */
+    margin-top: 10px; /* Add some space above the icon */
+    color: #00aaff; /* Icon color (Cool Blue) */
+}
+
+.icon i {
+    vertical-align: middle; /* Align icon vertically in the middle */
+}
+
+.footer {
+    background-color: #343a40; /* Footer background color (Dark Gray) */
+}
+
+.footer p {
+    margin-bottom: 0; /* Remove default margin for paragraphs */
+    color: #ffffff; /* Footer text color (White) */
+}
+#current-time {
+    font-size: 24px;
+    font-weight: bold;
+    color: #0044cc; /* Dark Blue */
+}
+
+#here {
+    border-radius: 8px;
+}
+
+@media screen and (min-width: 1024px) {
+    #current-time{
+        margin-right: 6rem;
+    }
+}
